@@ -2,7 +2,7 @@
     "name": "eslint-config-team23-standard",
     "version": "1.0.0",
     "description": "A set of eslint rules used by TEAM23 for standard js projects",
-    "main": ".eslint.js",
+    "main": ".eslintrc.js",
     "scripts": {
         "lint": "eslint test/index.js --no-ignore"
     },
