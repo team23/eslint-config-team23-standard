@@ -1,0 +1,28 @@
+{
+    "name": "eslint-config-team23-standard",
+    "version": "1.0.0",
+    "description": "A set of eslint rules used by TEAM23 for standard js projects",
+    "main": ".eslint.js",
+    "scripts": {
+        "lint": "eslint test/index.js --no-ignore"
+    },
+    "keywords": [
+        "eslint"
+    ],
+    "author": "TEAM23 GmbH",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^6 || ^7.2.0",
+        "eslint-plugin-import": "^2.25.2",
+        "eslint-plugin-jsdoc": "^36.1.1",
+        "eslint-plugin-prefer-arrow": "^1.2.3",
+        "eslint-plugin-unicorn": "^37.0.1"
+    },
+    "peerDependencies": {
+        "eslint": "^6 || ^7.2.0",
+        "eslint-plugin-import": "^2.25.2",
+        "eslint-plugin-jsdoc": "^36.1.1",
+        "eslint-plugin-prefer-arrow": "^1.2.3",
+        "eslint-plugin-unicorn": "^37.0.1"
+    }
+}
