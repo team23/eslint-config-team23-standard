@@ -10,7 +10,6 @@ module.exports = {
     },
     plugins: [
         'prefer-arrow',
-        'unicorn',
         'import',
         'jsdoc',
     ],
@@ -59,12 +58,6 @@ module.exports = {
             'error',
             {
                 allowStandaloneDeclarations: true,
-            },
-        ],
-        'unicorn/filename-case': [
-            'error',
-            {
-                case: 'kebabCase',
             },
         ],
         'no-extra-boolean-cast': 'error',
