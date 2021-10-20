@@ -26,11 +26,6 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
         'consistent-return': 'off',
         'no-redeclare': 'off',
-
-        indent: [
-            'error',
-            4,
-        ],
         quotes: [
             'error',
             'single',
