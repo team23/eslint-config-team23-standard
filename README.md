@@ -44,8 +44,6 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
 
 Simply add a `"rules"` key to your config, then add your overrides and additions there.
 
-For example, to change the `component-class-suffix` rule to allow components to be suffixed with `State`:
-
 ```json
 {
     "extends": "eslint-config-team23-standard"
