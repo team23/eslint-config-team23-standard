@@ -84,4 +84,4 @@ If you want a brief test of this repo, do the following:
 - Run `npm run lint`
 
 ## [License](LICENSE)
-Team23
+TEAM23 GmbH
