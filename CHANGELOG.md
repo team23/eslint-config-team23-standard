@@ -1,7 +1,10 @@
 # Changelog
 
+## v1.0.6
+- Add missing peer dependency **eslint-plugin-prefer-arrow**
+
 ## v1.0.5
-- Remove **ident** rule due to misbehaviour in existing projects
+- Remove **ident** rule due to misbehaviour in //existing projects//
 
 ## v1.0.4
 - Update package lock to contain update peer dependencies of release v1.0.3
