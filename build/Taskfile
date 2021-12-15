@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# b5 Taskfile, see https://git.team23.de/build/b5 for details
+
+task:install() {
+    cd .. && \
+    npm ci
+}
+
+task:update() {
+    cd .. && \
+    npm ci
+ }
+
+task:run() {
+    cd .. && \
+    npm run lint
+ }
+
+# Create a new npm version
+# usage 'b5 version v1.0.0'
+task:version() {
+    VERSION="${1:-}"
+    if [ -z "$VERSION" ]
+    then
+        print "No version given. Use format 'v1.0.0'"
+        exit 1
+    fi
+
+    cd .. && \
+    npm version patch -m "feat(${VERSION}): release new version"
+}
