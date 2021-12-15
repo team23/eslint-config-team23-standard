@@ -4,7 +4,7 @@
     "description": "A set of eslint rules used by TEAM23 for standard js projects",
     "main": ".eslintrc.js",
     "scripts": {
-        "lint": "eslint src/index.invalid.js --no-ignore",
+        "lint": "eslint src/index.valid.js --no-ignore",
         "test": "jest"
     },
     "keywords": [
