@@ -15,3 +15,16 @@ lint:
   script:
     - npm ci
     - npm run lint
+
+test:
+  stage: quality
+  only:
+    refs:
+      - tags
+      - master
+      - testing
+      - next
+      - merge_requests
+  script:
+    - npm ci
+    - npm run test

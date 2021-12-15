@@ -4,7 +4,8 @@
     "description": "A set of eslint rules used by TEAM23 for standard js projects",
     "main": ".eslintrc.js",
     "scripts": {
-        "lint": "eslint test/index.js --no-ignore"
+        "lint": "eslint src/index.invalid.js --no-ignore",
+        "test": "jest"
     },
     "keywords": [
         "eslint"
@@ -17,7 +18,8 @@
         "eslint": "^8.0.0",
         "eslint-plugin-import": "^2.25.2",
         "eslint-plugin-jsdoc": "^37.2.1",
-        "eslint-plugin-prefer-arrow": "^1.2.3"
+        "eslint-plugin-prefer-arrow": "^1.2.3",
+        "jest": "^27.4.5"
     },
     "peerDependencies": {
         "@typescript-eslint/eslint-plugin": "^4.0.0 || ^5.0.0",

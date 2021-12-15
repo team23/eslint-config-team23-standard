@@ -16,6 +16,11 @@ task:run() {
     npm run lint
  }
 
+task:test() {
+    cd .. && \
+    npm run test
+ }
+
  task:version:info() {
     cd .. && \
     echo 'Current Package Version:'
