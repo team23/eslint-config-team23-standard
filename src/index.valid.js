@@ -68,3 +68,11 @@ preferArrowCallback(templateCurlySpacing);
 
 ([]).filter(a => a)
     .map(a => a);
+
+export class MaxClass {
+    getClass() {
+        return class MaxClass2 {
+
+        };
+    }
+}

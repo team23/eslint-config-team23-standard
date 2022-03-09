@@ -52,6 +52,7 @@ describe('Validate ESLint configs', () => {
             'yoda',
             'prefer-template',
             'jsdoc/no-types',
+            'max-classes-per-file',
         ])('should throw error for %s', ruleId => {
             expect(hasError(result, ruleId)).toBeTruthy();
         });

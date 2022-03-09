@@ -45,3 +45,9 @@ var noUnneededTernary = twoVar === 1 ? true : false;
 const templateCurlySpacing = `${noVar}`
 
 ([]).filter(a => a).map(a => a);
+
+export class MaxClass1 {
+}
+
+export class MaxClass2 {
+}
