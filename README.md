@@ -73,7 +73,7 @@ For proposing changes to the ruleset please open either
 ### Creating a new version after new rule changes
 
 1) update [CHANGELOG.md](CHANGELOG.md)
-2) Run `npm version [<newversion> | major | minor | patch] -m "feat(core): <versionmessage>"`
+2) Run `npm version [<newversion> | major | minor | patch] -m "feat(v${ VERSION }): release new version"`
 3) Push commits and tags
 
 ### Usage inside of this project 
