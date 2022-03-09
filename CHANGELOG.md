@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.2
+- Allow Class definitionis in Expressions for **max-classes-per-file**
+
 ## v1.0.6
 - Add missing peer dependency **eslint-plugin-prefer-arrow**
 
