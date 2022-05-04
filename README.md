@@ -5,8 +5,8 @@ A set of eslint rules used by TEAM23 for standard js projects
 ## Installation in your project
 Add the library to your `package.json` as `devDependency`
 
-```json
-"eslint-config-team23-standard": "git+https://gitlab+deploy-token-XY:DEPLOY_TOKEN_PW@git.team23.de/team23/eslint-config-team23-standard.git#v1.0.5",
+```bash
+mpm i --save-dev @team23/eslint-config-team23-standard
 ```
 
 ### Usage in your project
@@ -16,7 +16,7 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
 #### Extend Globally
 ```json
 {
-    "extends": "eslint-config-team23-standard"
+    "extends": "@team23/eslint-config-team23-standard"
 }
 ```
 
@@ -32,7 +32,7 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
                 "*.jsx"
             ],
             "extends": [
-                "eslint-config-team23-standard"
+                "@team23/eslint-config-team23-standard"
             ],
             rules: {}
         }
@@ -46,7 +46,7 @@ Simply add a `"rules"` key to your config, then add your overrides and additions
 
 ```json
 {
-    "extends": "eslint-config-team23-standard"
+    "extends": "@team23/eslint-config-team23-standard",
     "rules": {
         "no-magic-numbers": "off"
     }
