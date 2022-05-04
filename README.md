@@ -6,7 +6,7 @@ A set of eslint rules used by TEAM23 for standard js projects
 Add the library to your `package.json` as `devDependency`
 
 ```bash
-mpm i --save-dev @team23/eslint-config-team23-standard
+npm i --save-dev @team23/eslint-config-team23-standard
 ```
 
 ### Usage in your project
