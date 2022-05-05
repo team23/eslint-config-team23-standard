@@ -51,3 +51,5 @@ export class MaxClass1 {
 
 export class MaxClass2 {
 }
+
+const arrayBracketSpacing = [ 'a', 'b' ];

@@ -53,6 +53,7 @@ describe('Validate ESLint configs', () => {
             'prefer-template',
             'jsdoc/no-types',
             'max-classes-per-file',
+            'array-bracket-spacing',
         ])('should throw error for %s', ruleId => {
             expect(hasError(result, ruleId)).toBeTruthy();
         });

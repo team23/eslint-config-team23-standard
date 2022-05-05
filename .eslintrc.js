@@ -159,6 +159,8 @@ module.exports = {
         'no-unused-labels': 'error',
         'no-var': 'error',
         'no-void': 'error',
+        'array-bracket-spacing': ['error', 'never'],
+        'computed-property-spacing': ['error', 'always'],
         'object-curly-spacing': ['error', 'always'],
         'no-unneeded-ternary': 'error',
         'object-shorthand': [

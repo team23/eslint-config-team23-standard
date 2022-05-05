@@ -76,3 +76,7 @@ export class MaxClass {
         };
     }
 }
+
+const arrayBracketSpacing = ['a', 'b'];
+
+preferArrowCallback(arrayBracketSpacing);
