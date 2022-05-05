@@ -1,8 +1,8 @@
 # Changelog
 
 ## v2.0.3
-- Add Rule **array-bracket-spacing**
-- Add Rule **computed-property-spacing**
+- Add rule **array-bracket-spacing**
+- Add rule **computed-property-spacing**
 
 ## v2.0.2
 - Allow Class definitionis in Expressions for **max-classes-per-file**
