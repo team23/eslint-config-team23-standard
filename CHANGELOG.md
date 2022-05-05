@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.4
+- Disable **computed-property-spacing**
+
 ## v2.0.3
 - Add rule **array-bracket-spacing**
 - Add rule **computed-property-spacing**
