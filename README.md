@@ -75,6 +75,7 @@ For proposing changes to the ruleset please open either
 1) update [CHANGELOG.md](CHANGELOG.md)
 2) Run `npm version [<newversion> | major | minor | patch] -m "feat(v${ VERSION }): release new version"`
 3) Push commits and tags
+4) Run `npm publish --access public` to publish the new version to npm
 
 ### Usage inside of this project 
 
