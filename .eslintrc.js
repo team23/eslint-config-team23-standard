@@ -39,7 +39,8 @@ module.exports = {
             'error',
             {
                 ignoreDefaultValues: true,
-                detectObjects: true,
+                ignoreArrayIndexes: false,
+                detectObjects: false,
                 ignore: [-1, 1, 0],
             },
         ],
