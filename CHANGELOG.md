@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.0.5
+- Disable **detectObjects** in **no-magic-numbers**
+- Disable **ignoreArrayIndexes** in **no-magic-numbers**
+
 ## v2.0.4
 - Disable **computed-property-spacing**
 
