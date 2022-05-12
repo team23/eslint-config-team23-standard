@@ -21,7 +21,6 @@ module.exports = {
         'class-methods-use-this': 'off',
         'no-invalid-this': 'off',
         'no-use-before-define': 'off',
-        '@angular-eslint/no-forward-ref': 'off',
         'import/no-unassigned-import': 'off',
         'import/no-extraneous-dependencies': 'off',
         'consistent-return': 'off',
