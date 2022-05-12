@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.6
+- Cleanup package to not container typescript/angular features
+
 ## v2.0.5
 - Disable **detectObjects** in **no-magic-numbers**
 - Disable **ignoreArrayIndexes** in **no-magic-numbers**
