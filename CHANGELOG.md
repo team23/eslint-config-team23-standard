@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.7
+- Remove peer dependencies due to breaking changes in **max-classes-per-file**
+
 ## v2.0.6
 - Cleanup package to not container typescript/angular features
 
