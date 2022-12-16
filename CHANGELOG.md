@@ -1,5 +1,9 @@
 # Changelog
 
+## v8.0.0
+- Update eslint and plugins
+- Adapt version to major eslint version
+
 ## v2.0.7
 - Remove peer dependencies due to breaking changes in **max-classes-per-file**
 
