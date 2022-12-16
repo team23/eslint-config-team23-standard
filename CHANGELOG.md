@@ -1,5 +1,8 @@
 # Changelog
 
+## v8.0.1
+- Allow broader versions of eslint
+
 ## v8.0.0
 - Update eslint and plugins
 - Adapt version to major eslint version
