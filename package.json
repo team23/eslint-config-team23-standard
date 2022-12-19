@@ -27,7 +27,7 @@
     "peerDependencies": {
         "eslint": "^8.0.0",
         "eslint-plugin-import": "^2.0.0",
-        "eslint-plugin-jsdoc": "^37.0.0 || ^38.0.0 || 39.0.0",
+        "eslint-plugin-jsdoc": "^37.0.0 || ^38.0.0 || ^39.0.0",
         "eslint-plugin-prefer-arrow": "^1.0.0"
     }
 }
