@@ -1,5 +1,8 @@
 # Changelog
 
+## v8.0.3
+- Allow broader versions of eslint-plugin-jsdoc
+
 ## v8.0.2
 - Allow broader versions of eslint-plugins
 
