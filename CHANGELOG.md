@@ -1,5 +1,12 @@
 # Changelog
 
+## v8.1.0
+#### Breaking Change
+- Update peerDependency `eslint-plugin-jsdoc` to version `^46.4.3`
+
+#### Other changes
+- Migrate `jsdoc/newline-after-description` rule to `jsdoc/tag-lines`
+
 ## v8.0.3
 - Allow broader versions of eslint-plugin-jsdoc
 
