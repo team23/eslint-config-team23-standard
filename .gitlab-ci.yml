@@ -1,4 +1,4 @@
-image: node:14
+image: docker.team23.de/docker/hub/node:18
 
 stages:
   - quality
