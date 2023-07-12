@@ -31,7 +31,7 @@ describe('Validate ESLint configs', () => {
             'comma-dangle',
             'eqeqeq',
             'jsdoc/check-alignment',
-            'jsdoc/newline-after-description',
+            'jsdoc/tag-lines',
             'newline-per-chained-call',
             'template-curly-spacing',
             'no-var',
