@@ -14,18 +14,18 @@ task:update() {
 task:run() {
     cd .. && \
     npm run lint
- }
+}
 
 task:test() {
     cd .. && \
     npm run test
- }
+}
 
- task:version:info() {
+task:version:info() {
     cd .. && \
     echo 'Current Package Version:'
     node -p "require('./package.json').version"
- }
+}
 
 # Create a new npm version
 # usage 'b5 version:update v1.0.0'
@@ -41,4 +41,9 @@ task:version:update() {
 
     cd .. && \
     npm version "v${VERSION_CLEAN}" -m "feat(v${VERSION_CLEAN}): release new version"
+}
+
+task:deploy() {
+    cd .. && \
+    npm publish --access public
 }

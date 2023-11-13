@@ -74,7 +74,7 @@ module.exports = {
             'error',
             'always-multiline',
         ],
-        complexity: 'error',
+        complexity: ['error', 10],
         'constructor-super': 'error',
         curly: 'error',
         'default-case': 'error',
