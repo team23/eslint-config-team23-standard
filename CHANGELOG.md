@@ -1,6 +1,6 @@
 # Changelog
 
-## v8.2.0
+## v8.3.0
 #### Breaking Change
 - Change `complexity` rule to limit code complexity to `10`
 
