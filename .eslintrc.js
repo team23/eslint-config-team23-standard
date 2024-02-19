@@ -58,7 +58,11 @@ module.exports = {
         'no-extra-boolean-cast': 'error',
         'max-lines': [
             'error',
-            999,
+            {
+                max: 400,
+                skipComments: true,
+                skipBlankLines: true,
+            },
         ],
         'arrow-body-style': 'error',
         'arrow-parens': [
