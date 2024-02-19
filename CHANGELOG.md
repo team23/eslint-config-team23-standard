@@ -4,6 +4,10 @@
 #### Breaking Change
 - Change `complexity` rule to limit code complexity to `10`
 
+## v8.2.0
+#### Breaking Change
+- set max-lines to max 400 per file
+
 ## v8.1.0
 #### Breaking Change
 - Update peerDependency `eslint-plugin-jsdoc` to version `^46.4.3`
