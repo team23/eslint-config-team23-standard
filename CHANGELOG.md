@@ -1,5 +1,9 @@
 # Changelog
 
+## v8.3.1
+#### Changes
+- Update `eslint-plugin-jsdoc` peer-dependency to Version `48` 
+
 ## v8.3.0
 #### Breaking Change
 - Change `complexity` rule to limit code complexity to `10`
