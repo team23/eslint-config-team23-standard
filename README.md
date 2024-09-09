@@ -2,15 +2,17 @@
 
 A set of eslint rules used by TEAM23 for standard js projects
 
-## Notice: Migration to Monorepo
+## ⚠️ Important Notice: Migration to Monorepo ⚠️
 
-As of 09.09.2024, this project has been moved to a monorepo structure. You can now find this project under the monorepo at the following path:
+**🚨 This package has been moved to a monorepo! 🚨**
 
-Monorepo Path: https://github.com/team23/style-guide/tree/main/libs/angular
+As of 09.09.2024, the project has been migrated to a monorepo structure. You can now find the project at the following location:
 
-This migration allows for better management and collaboration on shared code and libraries. Please update your references and follow the new structure when working with this repository.
+**🔗 Monorepo Path:** https://github.com/team23/style-guide/tree/main/libs/angular
 
-For any issues or concerns regarding this migration, feel free to open an issue in the new monorepo.
+This move allows us to better manage shared code and collaborate efficiently. Please make sure to update your references to the new monorepo structure.
+
+If you encounter any issues or have questions, please open an issue in the new monorepo repository.
 
 ## Installation in your project
 Add the library to your `package.json` as `devDependency`
